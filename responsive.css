@@ -1,0 +1,41 @@
+@media (max-width:550px){
+    .cabecalho{
+        background-image: url(./img/img-cell.jpg);
+        padding: 6px;
+        justify-content: center;
+    }
+    .cabecalho .logo{
+        display: block;
+       
+    }
+    .cabecalho nav {
+       float: NONE;
+       text-align: center;
+    
+    
+    }
+    .cabecalho nav li{
+        display: inline-block;
+        padding: 10px;
+    }
+    .cabecalho nav li a{
+       
+        color: rgb(99, 45, 201);
+        border: 2px solid blue ;
+        padding: 5px;
+        border-radius: 5px;
+        text-align: center;
+    
+    }
+    .cabecalho nav li a:hover{
+        text-decoration: none;
+        
+        
+    }
+    .cabecalho nav li a:active{
+        background-color: rgb(5, 5, 88);
+    }
+    main{
+        border: none;
+    }
+}
