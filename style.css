@@ -1,0 +1,52 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+    background-color: #f1f2f1;
+}
+.cabecalho{
+    background-color: rgb(176, 76, 243);
+    
+}
+.cabecalho .logo{
+    display: inline-block;
+    text-align: center;
+}
+.cabecalho .logo img{
+    width: 80px;
+    
+}
+.cabecalho nav{
+    float: right;
+}
+.cabecalho nav li{
+    display: inline-block;
+    padding: 30px;
+}
+.cabecalho nav li a{
+    text-decoration: none;
+    color: #fff;
+}
+.cabecalho nav li a:hover{
+    text-decoration: underline;
+}
+main{
+    padding: 30px;
+    text-align: justify;
+    border: 4px solid blue ;
+    border-radius: 2px;
+    border-color: darkturquoise;
+    background-color: #fff;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+main span{
+    color: green;
+    text-decoration: underline;
+}
+p{
+    font-size: 16px;
+   
+}
+main img{
+    width: 100%;
+    border-radius: 20px;
+}
