@@ -9,6 +9,10 @@
     .cabecalho nav {
        float: none;
     }
+    .cabecalho nav{
+        text-align: center;
+        padding: 5px;
+    }
     .cabecalho nav li{
         display: block;
         text-align: center;
