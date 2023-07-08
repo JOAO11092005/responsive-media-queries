@@ -9,19 +9,19 @@
        
     }
     .cabecalho nav {
-       float: NONE;
+       float: none;
        text-align: center;
     
     
     }
     .cabecalho nav li{
-        display: inline-block;
+       display: block;
         padding: 10px;
     }
     .cabecalho nav li a{
        
-        color: rgb(99, 45, 201);
-        border: 2px solid blue ;
+        color: #fff;
+        
         padding: 5px;
         border-radius: 5px;
         text-align: center;
@@ -29,6 +29,7 @@
     }
     .cabecalho nav li a:hover{
         text-decoration: none;
+        text-decoration: underline;
         
         
     }
@@ -39,3 +40,4 @@
         border: none;
     }
 }
+
