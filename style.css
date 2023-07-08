@@ -3,9 +3,10 @@ body{
     background-color: #f1f2f1;
 }
 .cabecalho{
-    background-image: url(./img/img-desktop.jpg);
+    background-image: url(./img/img-cell.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 20px;
     
 }
 .cabecalho .logo{
@@ -33,10 +34,9 @@ body{
 main{
     padding: 30px;
     text-align: justify;
-    border: 4px solid blue ;
+    
     border-radius: 5px;
-    border-color: #FFF 
-    BLUE  blue blue ;
+    border-color: #ffd;
     background-color: #fff;
     max-width: 1024px;
     margin: 0 auto;
